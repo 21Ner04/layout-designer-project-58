@@ -302,9 +302,7 @@ img[alt="main logo"] {
 
 .video {
   position: relative;
-  z-index: 1;
-
-  border: none;
+  margin-bottom: -200px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
