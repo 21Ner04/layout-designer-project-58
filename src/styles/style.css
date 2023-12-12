@@ -310,7 +310,8 @@ img[alt="main logo"] {
   position: relative;
   margin-bottom: -200px;
   margin: 0 auto;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  -webkit-filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 #navigation {
