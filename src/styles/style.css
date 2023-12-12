@@ -290,6 +290,12 @@ img[alt="main logo"] {
   justify-content: center;
 }
 
+
+.video-section > p {
+  margin: 30px auto;
+}
+
+
 .video-section > h2 {
   margin: 100px 0 0 0;
 }
@@ -515,12 +521,6 @@ input[type="email"] {
   position: relative;
   top: 76px;
 }
-
-.video-section > p {
-  margin: 30px auto;
-}
-
-
 .nav-item-box > h3 {
   position: relative;
   top: 35px;
