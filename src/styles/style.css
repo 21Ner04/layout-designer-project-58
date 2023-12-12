@@ -69,9 +69,9 @@
 }
 
 h1 {
-  font-weight: normal;
   font-size: 72px;
   line-height: 1.2em;
+  margin-bottom: 30px;
 }
 
 h2 {
@@ -102,10 +102,20 @@ body {
 
   color: #2a2626;
 
+  
   font-size: 16px;
   line-height: 1.6em;
 }
 
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 header {
   height: 914px;
   margin-top: 0;
@@ -169,8 +179,6 @@ footer {
   width: 100%;
 }
 
-/* 2.3.2) margin */
-
 .no-margin {
   margin: 0;
 }
@@ -208,9 +216,11 @@ footer {
 .background-img::before {
   position: absolute;
 
-  display: block;
-  width: 1440px;
-  height: 914px;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
 
   background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
@@ -228,8 +238,6 @@ footer {
   position: relative;
   top: 7%;
 }
-
-/* 3.2) headAndimg */
 
 .headANDimg-header {
   width: 800px;
@@ -311,12 +319,9 @@ img[alt="main logo"] {
 
 .video {
   position: relative;
-  margin-bottom: -200px;
-  margin: 0 auto;
-    box-sizing: border-box;
-    border: 0;
-    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-    margin-bottom: -90px;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+  border: 0;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
