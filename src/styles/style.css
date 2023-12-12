@@ -306,8 +306,7 @@ img[alt="main logo"] {
   z-index: 1;
 
   border: none;
-
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 #navigation {
