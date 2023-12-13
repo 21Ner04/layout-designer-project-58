@@ -218,6 +218,8 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 6%;
+  right: 0;
+  top: 0;
 
   content: "";
 }
