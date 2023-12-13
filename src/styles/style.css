@@ -102,9 +102,11 @@ body {
   justify-content: center;
 
   margin: 0px ;
+  padding: 0px;
 
   overflow-x: hidden;
-
+  overflow-y: scroll;
+  
   color: #2a2626;
 
   font-size: 16px;
@@ -210,7 +212,7 @@ footer {
   position: absolute;
 
   display: block;
-  width: 1110px;
+  width: 1440px;
   height: 914px;
 
   background-image: url("../assets/images/background.png");
