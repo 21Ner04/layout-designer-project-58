@@ -105,8 +105,8 @@ body {
   padding: 0px;
 
   overflow-x: hidden;
-  overflow-y: scroll;
-  
+  overflow-y: hidden;
+
   color: #2a2626;
 
   font-size: 16px;
