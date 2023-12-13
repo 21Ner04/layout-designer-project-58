@@ -101,7 +101,7 @@ body {
   flex-flow: column nowrap;
   justify-content: center;
 
-  margin: -100px auto;
+  margin: 0px ;
 
   overflow-x: hidden;
 
@@ -169,7 +169,7 @@ footer {
 }
 
 .w-100percent {
-  width: 100%;
+  width: 110%;
 }
 
 .no-margin {
