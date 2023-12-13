@@ -10,16 +10,20 @@
   font-family: 'Open Sans';
   src: url(../assets/fonts/Open\ Sans/static/OpenSans/OpenSans-Bold.ttf);
 }
+
 @font-face {
   font-family: Neucha;
   src: url(../assets/fonts/Neucha/Neucha-Regular.ttf);
 }
+
 .neucha {
   font-family: Neucha, cursive;
 }
+
 .open-sans {
   font-family: 'Open Sans', sans-serif;
 }
+
 .primary {
   color: #fe8a02;
 }
@@ -48,6 +52,7 @@
   color: #d7ccc0;
 }
 
+
 .light-background {
   background-color: #f5f4f0;
 }
@@ -69,9 +74,9 @@
 }
 
 h1 {
+  font-weight: normal;
   font-size: 72px;
   line-height: 1.2em;
-  margin-bottom: 30px;
 }
 
 h2 {
@@ -96,31 +101,18 @@ body {
   flex-flow: column nowrap;
   justify-content: center;
 
-  margin: 0px auto;
+  margin: 100px auto;
 
   overflow-x: hidden;
 
   color: #2a2626;
 
-  
   font-size: 16px;
   line-height: 1.6em;
 }
 
-.container {
-  max-width: 1110px;
-  margin: 0 auto;
-}
-
-.section {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
 header {
   height: 914px;
-  margin-top: 0;
-  margin-top: 0;
-  padding-top: 0;
 }
 
 footer {
@@ -171,6 +163,7 @@ footer {
   align-content: flex-end;
 }
 
+
 .w-1110px {
   width: 1110px;
 }
@@ -216,11 +209,9 @@ footer {
 .background-img::before {
   position: absolute;
 
-  top: 0;
-  left: 0;
-
-  width: 100%;
-  height: 100%;
+  display: block;
+  width: 1440px;
+  height: 914px;
 
   background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
@@ -301,28 +292,24 @@ img[alt="main logo"] {
   justify-content: center;
 }
 
-
-.video-section > p {
-  margin: 30px auto;
-}
-
-
 .video-section > h2 {
   margin: 100px 0 0 0;
 }
 
 .video-container {
   position: relative;
-  left: 100px;
+  left: 95px;
+
   height: 475px;
 }
 
 .video {
   position: relative;
-  margin-bottom: 100px;
-  box-sizing: border-box;
-  border: 0;
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  z-index: 1;
+
+  border: none;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 #navigation {
@@ -501,6 +488,7 @@ input[type="email"] {
 
   opacity: 20%;
 }
+
 .send-icon-container {
   display: inline-block;
   width: 70px;
@@ -514,26 +502,36 @@ input[type="email"] {
 
   content: "";
 }
+
 .send-icon-container:hover {
   background-color: #ea7600;
 }
+
 .send-icon-container::before {
   display: inline-block;
   width: 20px;
   height: 20px;
+
   background-image: url(../assets/images/send.svg);
   background-repeat: no-repeat;
   background-size: cover;
+
   content: "";
 }
 
 .a-service-rules {
   color: #fff;
 }
+
 .footer-useful-text {
   position: relative;
   top: 76px;
 }
+
+.video-section > p {
+  margin: 30px auto;
+}
+
 .nav-item-box > h3 {
   position: relative;
   top: 35px;
