@@ -115,6 +115,10 @@ body {
   line-height: 1.6em;
 }
 
+.container {
+  margin: 16px;
+}
+
 header {
   height: 914px;
 }
